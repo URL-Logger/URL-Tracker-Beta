@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Utelem URL Tracker",
+  "description": "This opt-in extension tracks the user's browser history for use in Market Research.",
+  "version": "1.3",
+
+  "icons": {
+	"128":"Branding/Off-Icon.png" 
+  }, 
+  
+  "browser_action": {
+    "default_icon": "Branding/Off-Icon.png",
+    "default_popup": "login.html",
+	"default_title": "URL Tracker"
+  },
+  
+  "background": {
+    "scripts": ["jQuery.js", "insertdb.js"],
+	"persistent": true
+  },
+  
+  "permissions": [
+    "activeTab",
+	"history",
+	"storage",
+	"background",
+	"http://sample-env.zssmubuwik.us-west-1.elasticbeanstalk.com/*"
+  ]
+}

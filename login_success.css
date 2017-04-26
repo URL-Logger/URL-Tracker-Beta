@@ -1,0 +1,76 @@
+body {
+	height:330px;
+	width:200px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Branding/OpenSans-Light.ttf);
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+	word-spacing: 20px;
+	text-decoration: bold;
+	background-color: #929596;
+    font-family: myFirstFont;
+}
+
+.Tracking{
+	text-align: center;
+	color: black;
+	font-size: 18px;
+    padding: -50px 0px;
+    font-family: myFirstFont;
+}
+
+#Tracking1{
+	text-align: center;
+	font-weight: bold;
+	color: green;
+	font-size: 18px;
+    font-family: myFirstFont;
+}
+
+.Sync{
+	text-align: center;
+	color: black;
+	font-size: 18px;
+    font-family: myFirstFont;
+}
+
+#Sync1{
+	text-align: center;
+	color: blue;
+	font-size: 16px;
+    font-family: myFirstFont;
+}
+
+#Logout{
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	background-color: #929596;
+    border: none;  
+    padding: 2px 72px;
+    font-family: myFirstFont;
+}
+
+.button-frame{
+    text-align: center;
+    color: white;
+    font-size: 18333px;
+    height: 80px;
+    font-family: myFirstFont;
+}
+
+.Power input { display: none; }
+.Power .seatButton {
+	border: none;
+    color: green;
+	padding: 14px;
+    font-size: 130px; 
+}
+.Power input:checked + .seatButton {
+	color: red; 
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>																										<!--Title and Includes-->
+    <title>Success</title>
+        <link href="login_success.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" 
+			  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	<!--Include Power Button Symbol-->
+        <script  type="application/javascript" src="jQuery.js"></script>
+        <script src="login_success.js"></script>
+</head>																										<!--End Title and Includes-->
+<body>
+	<img src="Branding/utelem-text-logo-black-transparent.png" width="200" height="30">						<!--Utelem Logo Placed at Top-->
+    <h1>URL Tracker</h1>																					<!--Page Description-->
+	<div class="Tracking">																					<!--Class tag for On/Off Tag-->
+		Tracking is:<SPAN id="Tracking1"> ON</SPAN>
+	</div>
+	<div class="Sync">																						<!--Class tag for Sync Info-->
+		Last Sync was:</br><SPAN id="Sync1"></SPAN>
+	</div>
+    <div class="Buttons">																					<!--Class tag for Buttons-->
+		<div class="Power">																					<!--Class tag for Power Button-->
+			<label>
+				<input type="checkbox" id="pbutt"/>															<!--Set Checkbox for Power Button-->
+				<span class="seatButton">&nbsp;<i class="fa fa-power-off"></i></span>						<!--Set Symbol for Power Button-->
+			</label>
+		</div>
+        <div class="Logout"> <input type ="button" value="Logout" id="Logout"/> 							<!--Class tag for Logout-->
+    </div>
+</body>
+</html>

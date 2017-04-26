@@ -1,0 +1,31 @@
+<!doctype html>
+<!--URL-Tracker Login Information. Appears in the popup window when extension is clicked.-->
+<html>
+  <head>																									<!--Title and Includes-->
+    <title>URL Tracker</title>
+      <link href="login.css" type="text/css" rel="stylesheet"/>
+      <script type="application/javascript" src="jQuery.js"></script>
+	  <script type="application/javascript" src='login.js'></script>
+  </head>																									<!--End Title and Includes-->
+  <body>
+	<img src="Branding/utelem-text-logo-black-transparent.png" width="200" height="30">						<!--Utelem Logo Placed at Top-->
+    <h1>URL Tracker</h1>																					<!--Page Description-->
+    <form class="login-prompt">																				<!--Class tag for User Input-->
+      E-mail:<br />
+	  <input type="text" name="username" size="25" id="username" /> <br /> <br />							<!--Username Input Box-->
+      Password:<br />
+	  <input type="password" name="password" size="25" maxlength="26" id="password" /><br/><br/>			<!--Password Input Box-->
+    </form>
+    <div class="button-frame">																				<!--Class tag for Login Button-->
+        <input type="button" value="Login" id="login"/>														<!--Login Button-->
+		<br/>
+		<div class="link-frame">																			<!--Class tag for External Links-->
+		<a href="http://sample-env-1.mmp43pn7bg.us-west-1.elasticbeanstalk.com/#!/signup" target="_blank">	<!--Link for RPMS Link-->
+		   Account Creation</a><br/>												
+		<a href="http://sample-env.zssmubuwik.us-west-1.elasticbeanstalk.com/privacy/" target="_blank">		<!--Link for Privacy Policy-->
+		   Privacy Policy</a>
+		</div>
+    </div>																							
+  </body>
+</html>
+
