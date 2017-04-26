@@ -1,7 +1,9 @@
-# URL-Logger-Draft1
-Proposal of our School Project
-From:
-https://developer.chrome.com/extensions/getstarted 
+# URL-Tracker-Beta
 
-To Load Extension in Chrome:
+To Load Extension in Chrome, just drag and drop .crx file into:
+
+chrome://extensions
+
+Otherwise follow these instructions:
+
 https://developer.chrome.com/extensions/getstarted#unpacked
